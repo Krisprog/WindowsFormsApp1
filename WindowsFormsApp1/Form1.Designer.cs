@@ -30,6 +30,7 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.SuspendLayout();
             // 
             // button1
@@ -42,11 +43,18 @@ namespace WindowsFormsApp1
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(667, 17);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 465);
+            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +65,7 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
 
